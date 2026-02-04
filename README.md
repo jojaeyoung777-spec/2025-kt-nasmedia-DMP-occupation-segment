@@ -1,3 +1,22 @@
+# 2025_kt 나스미디어 DMP 직업 세그먼트 개발
+
+DMP 시나리오 서비스를 운영하며,  
+기존 방식으로는 **사용자 단위의 직업 타겟팅 니즈를 충분히 충족하지 못한다는 한계**를 발견하였습니다.  
+
+이를 개선하기 위해 **위치 정보를 활용한 직업 유추 로직을 End-to-End로 설계·구현**하였으며,  
+실제 시나리오에 바로 적용 가능한 **직업 세그먼트 기반을 구축**하여  
+사용자 니즈에 부합하는 정교한 타겟팅 옵션을 제공하였습니다.
+
+---
+
+### 티스토리
+  - 정리글 
+  - https://macbook2.tistory.com/79
+
+---
+<img width="1280" height="717" alt="image" src="https://github.com/user-attachments/assets/dac28cf7-b8d8-4ce2-b77c-0312a60c878b" />
+
+
 # Job Segmentation Pipeline
 
 직장(기업)과 학교(고등학교, 대학교) 위치 데이터를 수집하고, Elasticsearch를 활용하여 DMP 사용자 위치 데이터와 매칭하는 통합 파이프라인입니다.
@@ -949,5 +968,6 @@ CHUNK_SIZE = 50000            # CSV 읽기 청크 크기
 3. **메모리 절약**:
    - `CHUNK_SIZE` 감소 (50000 → 25000)
    - `INTERMEDIATE_SAVE_INTERVAL` 감소
+
 
 ---
