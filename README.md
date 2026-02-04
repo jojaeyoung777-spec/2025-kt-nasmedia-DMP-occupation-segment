@@ -1,1 +1,17 @@
-# 2025-kt-nasmedia-DMP-occupation-segment
+# kt 나스미디어 DMP 직업 세그먼트 개발
+
+DMP 시나리오 서비스를 운영하며,  
+기존 방식으로는 사용자 단위의 **직업 타겟팅 니즈를 충분히 충족하지 못한다는 한계**를 발견하였습니다.  
+
+이를 개선하기 위해 **위치 정보를 활용한 직업 유추 로직을 End-to-End로 설계·구현**하였으며,  
+실제 시나리오에 바로 적용 가능한 **직업 세그먼트 기반을 구축**하여  
+사용자 니즈에 부합하는 정교한 타겟팅 옵션을 제공하였습니다.
+
+---
+
+## 티스토리
+-  정리 글  
+- https://macbook2.tistory.com/79
+
+(예시)
+<img width="1279" height="719" alt="image" src="https://github.com/user-attachments/assets/893e2b4f-3145-4a46-a717-5aa68fee5d27" />
