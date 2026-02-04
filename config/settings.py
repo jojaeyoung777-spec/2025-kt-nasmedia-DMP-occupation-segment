@@ -20,25 +20,25 @@ class APIConfig:
     """API 키 및 엔드포인트 관리"""
 
     # DART (전자공시) API - 기업 데이터
-    DART_API_KEY = "deed5f1ba69b1cda2f3b2f7819061503b57f6f5a"
+    DART_API_KEY = "0"
     DART_BASE_URL = "https://opendart.fss.or.kr/api"
 
     # 카카오 로컬 API - 좌표 변환 및 주소 검색
-    KAKAO_API_KEY = "b223172563ee609c326539aa7e724f97"
+    KAKAO_API_KEY = "0"
     KAKAO_BASE_URL = "https://dapi.kakao.com/v2/local"
 
     # 공공데이터포털 - 법정동코드 API
-    LEGAL_DONG_API_KEY = "1igRNIkRXyPHQIcbfUsrTtnQ2JEiPGuFhqZnkny2onlEGDxdgUcfx+IkkzWvTkWmUY6KTNiPMMnHo3fIMcJYDw=="
+    LEGAL_DONG_API_KEY = "0+IkkzWvTkWmUY6KTNiPMMnHo3fIMcJYDw=="
     LEGAL_DONG_API_URL = "https://apis.data.go.kr/1741000/StanReginCd/getStanReginCdList"
 
     # 한국무역보험공사 - 업종코드 API
-    INDUSTRY_API_KEY = "1igRNIkRXyPHQIcbfUsrTtnQ2JEiPGuFhqZnkny2onlEGDxdgUcfx+IkkzWvTkWmUY6KTNiPMMnHo3fIMcJYDw=="
+    INDUSTRY_API_KEY = "0+IkkzWvTkWmUY6KTNiPMMnHo3fIMcJYDw=="
     INDUSTRY_API_URL = "https://api.odcloud.kr/api/15064297/v1/uddi:07a7ea27-b8b2-4698-835c-c3b950cefb34"
 
     # 안전지도 API - 학교 데이터
-    SAFEMAP_SERVICE_KEY = "83E6CJ1F-83E6-83E6-83E6-83E6CJ1FCY"
-    SAFEMAP_HIGH_SCHOOL_URL = "http://safemap.go.kr/openapi2/IF_0035"  # 학교(초,중,고,기타)
-    SAFEMAP_UNIVERSITY_URL = "http://safemap.go.kr/openapi2/IF_0034"  # 대학교
+    SAFEMAP_SERVICE_KEY = "0"
+    SAFEMAP_HIGH_SCHOOL_URL = "0"  # 학교(초,중,고,기타)
+    SAFEMAP_UNIVERSITY_URL = "0"  # 대학교
 
 
 # ========================================
@@ -243,3 +243,4 @@ if __name__ == "__main__":
     print(f"  - 기업위치: {PathConfig.get_reference_filename('company')}")
     print(f"  - 고등학교: {PathConfig.get_reference_filename('high_school')}")
     print(f"  - 대학교: {PathConfig.get_reference_filename('university')}")
+
