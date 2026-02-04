@@ -1,0 +1,1 @@
+# 2025-kt-nasmedia-DMP-occupation-segment
